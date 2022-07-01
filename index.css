@@ -16,7 +16,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
 }
-
+small,
 input {
   display: block;
 }
@@ -82,10 +82,10 @@ form input {
   outline: 1px solid rgba(0, 0, 0, 0.561);
 }
 
-.submit-text {
+.small-text {
   color: rgb(0, 0, 0);
   font-size: 0.6em;
-  padding-left: 3em;
+  text-align: center;
   font-weight: 600;
 }
 
