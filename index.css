@@ -102,6 +102,37 @@ form input {
   cursor: pointer;
 }
 
+.form-c {
+  display: block;
+  width: 100%;
+  /* border: solid blue 2px; */
+  margin: auto;
+  position: relative;
+}
+
+.js {
+  /* position: absol; */
+  display: block;
+  width: 100%;
+  text-align: center;
+  --aftercontent: "";
+  transform: translateY(-0em);
+  z-index: 1;
+  font-size: 0.7em;
+}
+span::before {
+  text-align: end;
+  content: var(--aftercontent);
+  /* position: absolute; */
+  right: 0em;
+  top: 0em;
+  color: hsl(0, 100%, 74%);
+  /* border: solid green 2px; */
+  display: block;
+  /* text-align: center; */
+  /* width: 100%; */
+}
+
 @media screen and (min-width: 376px) and (max-width: 700px) {
   body {
     font-size: 0.8em;
